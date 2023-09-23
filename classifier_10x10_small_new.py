@@ -40,7 +40,7 @@ from sklearn.inspection import DecisionBoundaryDisplay
 
 # Define your own data
 X = [
-    # Index0, Field0, Card1, Rotation0, PatternNorth0, PatternEast0, PatternSouth0, PatternWest0, Index1, Field1, Card1, ... PatternWest2
+    # Index0, Field0, Card0, Rotation0, PatternNorth0, PatternEast0, PatternSouth0, PatternWest0, Index1, Field1, Card1, ... PatternWest2
     # UNSAT
 [   430,  11,  95, 2, 14, 10,  9, 11,   972,  14,  40, 0,  5,  6,  8, 14,  1980,  18,  36, 1, 11,  5,  5,  5 ],
 [   386,  11,  83, 0,  7, 10, 10, 12,  1207,  14,  98, 3, 13, 11, 12, 10,  2169,  18,  99, 3, 14, 11, 12, 10 ],
@@ -4052,6 +4052,8 @@ y = [
 
 X_test = [
 # Completely new test infos
+    # Index0, Field0, Card0, Rotation0, PatternNorth0, PatternEast0, PatternSouth0, PatternWest0, Index1, Field1, Card1, ... PatternWest2
+    # UNSAT    
 [   336,  11,  69, 0,  6, 11, 11, 10,  1157,  14,  86, 1, 13,  7, 14, 10,  2071,  18,  71, 2,  8,  8,  6, 13 ],
 [   336,  11,  69, 0,  6, 11, 11, 10,  1157,  14,  86, 1, 13,  7, 14, 10,  2102,  18,  80, 2,  9,  8,  7,  9 ],
 [   336,  11,  69, 0,  6, 11, 11, 10,  1157,  14,  86, 1, 13,  7, 14, 10,  2044,  18,  62, 1,  7,  6,  7, 10 ],
@@ -5052,6 +5054,7 @@ X_test = [
 [   404,  11,  87, 3, 14, 11,  9,  7,  1086,  14,  68, 2, 13, 11,  6, 10,  2139,  18,  90, 2, 12, 12,  8, 10 ],
 [   404,  11,  87, 3, 14, 11,  9,  7,  1150,  14,  84, 2, 13,  8,  7, 10,  2139,  18,  90, 2, 12, 12,  8, 10 ],
 [   404,  11,  87, 3, 14, 11,  9,  7,  1018,  14,  51, 2, 13, 10,  5, 10,  2139,  18,  90, 2, 12, 12,  8, 10 ],
+    # UNKNOWN (hopefully right line for this comment...) 
 [   387,  11,  83, 1, 12,  7, 10, 10,  1172,  14,  90, 0,  8, 10, 12, 12,  2141,  18,  91, 0,  8, 11, 14, 12 ],
 [   387,  11,  83, 1, 12,  7, 10, 10,   980,  14,  42, 0,  5,  6, 13, 13,  2020,  18,  53, 1,  7,  5, 12, 12 ],
 [   387,  11,  83, 1, 12,  7, 10, 10,   981,  14,  42, 1, 13,  5,  6, 13,  1997,  18,  44, 3,  7, 10, 13,  5 ],
@@ -6056,6 +6059,7 @@ X_test = [
 
 y_test = [
     # Completely new test results
+    # UNSAT    
     1,
     1,
     1,
@@ -7056,6 +7060,7 @@ y_test = [
     1,
     1,
     1,
+    # UNKNOWN   
     0,
     0,
     0,
